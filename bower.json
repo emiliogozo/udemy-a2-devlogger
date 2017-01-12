@@ -1,0 +1,23 @@
+{
+  "name": "devlogger",
+  "description": "Simple logger app",
+  "main": "src/",
+  "license": "MIT",
+  "keywords": [
+    "devlogger",
+    "feathers"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mui": "^0.9.7"
+  }
+}

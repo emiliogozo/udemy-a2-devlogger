@@ -45,7 +45,7 @@ export class LogsComponent implements OnInit{
       });
   }
 
-  deleteLog(id) {
+  deleteLog(id: string) {
     this._feathersService.deleteLog(id)
       .subscribe(data => {
         for (var i = 0; i < this.logs.length; i++) {
